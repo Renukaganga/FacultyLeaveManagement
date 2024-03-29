@@ -1,0 +1,51 @@
+.App {
+  display: flex;
+}
+
+.dashboard {
+  width: 200px;
+  height: 100vh;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.dashboard ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.dashboard li {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+.Dashboard {
+  margin-left: 20px; /* Adjust margin as needed */
+}
+
+.dashboard {
+  width: 200px; /* Adjust width as needed */
+  padding: 5px;
+  background-color: #f8f9fa; /* Adjust background color as needed */
+  border: 1px solid #dee2e6; /* Adjust border color as needed */
+  border-radius: 5px;
+}
+
+.dashboard ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.dashboard ul li {
+  margin-bottom: 10px;
+}
+
+.dashboard ul li button {
+  width: 100%;
+}

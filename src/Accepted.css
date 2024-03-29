@@ -1,0 +1,64 @@
+.approved-leaves-container {
+    padding: 20px;
+  }
+  
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .leave-card {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(33.33% - 20px); /* Adjust width as needed */
+  }
+  
+  .leave-card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .status-text {
+    margin-top: 10px;
+  }
+  
+  .approved {
+    color: green;
+  }
+  
+  .acceptance-date {
+    font-style: italic;
+  }
+  .container {
+    display: flex;
+  }
+  
+  .dashboard-container {
+    width: 200px; /* Adjust the width as needed */
+  }
+  
+  .approved-leaves-container {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .leave-card {
+    flex: 1 0 300px; /* Adjust the card width as needed */
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .acceptance-date {
+    margin-top: 10px;
+  }
+  

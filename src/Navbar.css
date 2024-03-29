@@ -1,0 +1,40 @@
+.navbar-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 200px;
+    width: 100%;
+    background-color: #6cacb6;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav {
+    /* display: flex; */
+    justify-content: space-around;
+    align-items: center;
+    top: 3000px;
+    right: 300px;
+  }
+  
+  .btn1, .btn2, .btn3, .btn4 {
+    background-color: #da1c46;
+    color: #ecf0f1;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+   
+  }
+  .btn5{
+    top: 300px;
+    left: 400px;
+  }
+  
+  .btn4:hover, .btn5:hover {
+    background-color: #171819;
+  }
+  
+  /* You can add additional styling as needed */
+  
